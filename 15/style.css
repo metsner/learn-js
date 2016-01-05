@@ -1,0 +1,25 @@
+.field {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 20px solid #00e698;
+}
+
+.cell {
+    position: absolute;
+    background-color: #00e698;
+    border: 0 solid #7fffd4;
+}
+
+.cell span {
+    position: absolute;
+    text-align: center;
+    top: 33%;
+    left: 35%;
+    font: bold 150% fantasy;
+    color: #002e1e;
+}
+
+#empty {
+    background-color: #909090;
+}

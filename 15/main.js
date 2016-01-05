@@ -61,15 +61,11 @@ for (i = 1; i <= SIDE_SIZE; i++) {
 
         cell.setPosition([i, j]);
 
-        //cell.innerHTML = n + 1;
-
         var span = document.createElement('span');
 
         span.innerHTML = n + 1;
 
         cell.innerHTML = span.outerHTML;
-
-        //cell.innerHTML.innerHTML = n + 1;
 
         if ((i == SIDE_SIZE) && (j == SIDE_SIZE)) {
 

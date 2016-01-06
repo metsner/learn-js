@@ -5,7 +5,7 @@ const SIDE_SIZE = 4;
  * For example: sell is 80px, so border will be 10px (if default).
  * 100px in sum (10 + 80 + 10) in this case.
  */
-const BORDER_PART = 0.125; // set what part of the width of the sell
+const BORDER_PART = 0.125;
 
 var field = document.getElementById('field');
 
@@ -88,8 +88,6 @@ for (i = 1; i <= SIDE_SIZE; i++) {
 field.draw();
 
 document.addEventListener("keydown", function(e) {
-
-    console.log(typeof(e.key));
 
     move(e.key);
 
